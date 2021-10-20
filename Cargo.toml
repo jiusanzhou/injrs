@@ -1,6 +1,6 @@
 [package]
 name = "injrs"
-version = "0.1.0"
+version = "0.1.1"
 description = "DLL injector library and tool written in Rust. Rust 实现的DLL注入工具/库。"
 authors = ["Zoe <hi@zoe.im>"]
 license = "Apache-2.0"
