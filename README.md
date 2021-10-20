@@ -8,7 +8,7 @@
 [![crates.io](https://img.shields.io/crates/v/dll-syringe.svg)](https://crates.io/crates/dll-syringe)
 [![Documentation](https://docs.rs/dll-syringe/badge.svg)](https://docs.rs/dll-syringe)
 [![dependency status](https://deps.rs/repo/github/jiusanzhou/injrs/status.svg)](https://deps.rs/repo/github/jiusanzhou/injrs)
-[![MIT](https://img.shields.io/crates/l/dll-syringe.svg)](https://github.com/jiusanzhou/injrs/blob/master/LICENSE)
+[![Apache-2.0](https://img.shields.io/crates/l/dll-syringe.svg)](https://github.com/jiusanzhou/injrs/blob/master/LICENSE)
 
 </div>
 
