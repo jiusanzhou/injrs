@@ -5,10 +5,10 @@
 **DLL injector library and tool written in Rust. Rust 实现的DLL注入工具/库**
 
 [![CI](https://github.com/jiusanzhou/injrs/actions/workflows/ci.yml/badge.svg)](https://github.com/jiusanzhou/injrs/actions/workflows/ci.yml)
-[![crates.io](https://img.shields.io/crates/v/dll-syringe.svg)](https://crates.io/crates/dll-syringe)
-[![Documentation](https://docs.rs/dll-syringe/badge.svg)](https://docs.rs/dll-syringe)
+[![crates.io](https://img.shields.io/crates/v/injrs.svg)](https://crates.io/crates/injrs)
+[![Documentation](https://docs.rs/injrs/badge.svg)](https://docs.rs/injrs)
 [![dependency status](https://deps.rs/repo/github/jiusanzhou/injrs/status.svg)](https://deps.rs/repo/github/jiusanzhou/injrs)
-[![Apache-2.0](https://img.shields.io/crates/l/dll-syringe.svg)](https://github.com/jiusanzhou/injrs/blob/master/LICENSE)
+[![Apache-2.0](https://img.shields.io/crates/l/injrs.svg)](https://github.com/jiusanzhou/injrs/blob/master/LICENSE)
 
 </div>
 
