@@ -1,9 +1,29 @@
 [package]
 name = "injrs"
 version = "0.1.0"
+description = "DLL injector library and tool written in Rust. Rust 实现的DLL注入工具/库。"
 authors = ["Zoe <hi@zoe.im>"]
+license = "Apache-2.0"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+
+
+[dependencies.winapi]
+version = "0.3.9"
+features = [
+    "memoryapi",
+    "minwindef",
+    "ntdef", 
+    "tlhelp32",
+    "psapi", 
+    "securitybaseapi",
+    "libloaderapi", 
+    "synchapi", 
+    "wow64apiset",
+    "processthreadsapi", 
+    "handleapi", 
+    "winbase",
+    "impl-default",
+]
