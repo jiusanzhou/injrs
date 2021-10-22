@@ -1,5 +1,7 @@
 <div align="center">
 
+<img alt="Hello Box Demo" src="./hello-box-demo.png" width="100">
+
 # `injrs`
 
 **DLL injector library and tool written in Rust. Rust 实现的DLL注入工具/库**
@@ -42,7 +44,24 @@ EXAMPLES:
     $ injrs 1888 test.dll demo.dll
 ```
 
-The code in [example](./example) is a simple message box dll for testing injector.
+## DLL Demo
+
+The code in [examples/hellobox](./examples/hellobox) is a simple message box dll for testing injector.
+
+You can build with command:
+```bash
+cargo build --release --example hellobox
+```
+
+Build target will locate in:
+```bash
+target/i686-pc-windows-msvc/release/examples/hellobox.dll
+```
+
+Try to inject the demo dll to your target process:
+```bash
+injrs PID/PNAME target/i686-pc-windows-msvc/release/examples/hellobox.dll
+```
 
 ## Usage as library
 

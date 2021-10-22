@@ -33,7 +33,7 @@ fn show_message_box(caption: &str, text: &str) {
 // define dllmain to handle the init action
 #[no_mangle]
 #[allow(non_snake_case)]
-pub extern "stdcall" fn DllMain(hinst: HINSTANCE, reason: DWORD, _reserved: LPVOID) -> BOOL {
+unsafe extern "system" fn DllMain(hinst: HINSTANCE, reason: DWORD, _reserved: LPVOID) -> BOOL {
   match reason {
     DLL_PROCESS_DETACH => {
       println!("Remove from main process.");
