@@ -74,7 +74,7 @@ use injrs::inject_windows::*;
 fn main() {
     let name = "Calc.exe";
     let dll = "./my-demo-dll.dll";
-    let p = Process::find_first_by_name(name).unwrap();
+    let process = Process::find_first_by_name(name).unwrap();
 
     print!("inject dll to process => ");
     match process.inject(dll) {
